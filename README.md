@@ -5,6 +5,7 @@ AWS but am working on moving this to Azure.
 
 ## TODO
 
+- Check plugins will work when rebuilt on Windows
 - Switch hosting to Azure
 - Customise Flux to allow for custom CSS and JS
 - Complete first blog post on Pumpy
