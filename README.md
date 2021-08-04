@@ -10,3 +10,6 @@ AWS but am working on moving this to Azure.
 - Customise Flux to allow for custom CSS and JS
 - Complete first blog post on Pumpy
 
+# Notes
+
+Added this just to check that the PAt config has worked
