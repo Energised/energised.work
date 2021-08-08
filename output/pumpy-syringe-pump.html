@@ -12,9 +12,11 @@
 
     <link rel="stylesheet" type="text/css" href="./theme/stylesheet/style.min.css">
 
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+    href="./theme/stylesheet/dark-theme.min.css">
 
-    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
-          href="./theme/pygments/github.min.css">
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+          href="./theme/pygments/monokai.min.css">
 
 
   <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/fontawesome.css">
@@ -27,43 +29,46 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
     <link rel="icon" href="/images/favicon.png" type="image/x-icon">
 
+  
 
+
+ 
 
 <meta name="author" content="Dan Woolsey" />
-<meta name="description" content="Short post detailing my dissertation work" />
+<meta name="description" content="Open-Source solution to expensive medical devices" />
 <meta name="keywords" content="electronics, rpi, python">
 
 
-<meta property="og:site_name" content="energised.work"/>
-<meta property="og:title" content="Pumpy - The Open Source Medical Syringe Pump"/>
-<meta property="og:description" content="Short post detailing my dissertation work"/>
-<meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="./pumpy-syringe-pump.html"/>
-<meta property="og:type" content="article"/>
-<meta property="article:published_time" content="2020-06-10 17:18:00+02:00"/>
-<meta property="article:modified_time" content="2020-06-10 17:19:00+02:00"/>
-<meta property="article:author" content="./author/dan-woolsey.html">
-<meta property="article:section" content="3D Printing"/>
-<meta property="article:tag" content="electronics"/>
-<meta property="article:tag" content="rpi"/>
-<meta property="article:tag" content="python"/>
-<meta property="og:image" content="/images/profile.png">
+  <meta property="og:site_name" content="blog.energised.work"/>
+  <meta property="og:title" content="Pumpy - The Open Source Medical Syringe Pump"/>
+  <meta property="og:description" content="Open-Source solution to expensive medical devices"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="./pumpy-syringe-pump.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2020-06-10 17:18:00+02:00"/>
+  <meta property="article:modified_time" content="2020-06-10 17:19:00+02:00"/>
+  <meta property="article:author" content="./author/dan-woolsey.html">
+  <meta property="article:section" content="3D Printing"/>
+  <meta property="article:tag" content="electronics"/>
+  <meta property="article:tag" content="rpi"/>
+  <meta property="article:tag" content="python"/>
+  <meta property="og:image" content="/images/profile.png">
 
-  <title>energised.work &ndash; Pumpy - The Open Source Medical Syringe Pump</title>
+  <title>blog.energised.work &ndash; Pumpy - The Open Source Medical Syringe Pump</title>
 
 </head>
-<body class="light-theme">
+<body class="dark-theme">
   <aside>
     <div>
-      <a href=".">
+      <a href="./">
         <img src="/images/profile.png" alt="dan woolsey" title="dan woolsey">
       </a>
 
       <h1>
-        <a href=".">dan woolsey</a>
+        <a href="./">dan woolsey</a>
       </h1>
 
-<p>take me back to the 80's</p>
+<p>developer, musician, maker</p>
 
       <nav>
         <ul class="list">
@@ -72,7 +77,7 @@
               <li>
                 <a target="_self"
                    href="./pages/about.html#about">
-                  About
+                  About Me
                 </a>
               </li>
 
@@ -100,7 +105,7 @@
   <main>
 
     <nav>
-      <a href=".">Home</a>
+      <a href="./">Home</a>
 
       <a href="">Posts</a>
       <a href="">Categories</a>
@@ -120,8 +125,19 @@
 
 
   <div>
-    <h2>Heading 1</h2>
-<p>ipsum lordum catum plastum</p>
+    <h2>Abstract</h2>
+<p>Due to COVID-19, medical equipment and PPE have been in short supply and high demand. For the first time,
+hospitals relied on individuals to 3D print face masks to handle the growing supply concerns they faced.
+This has the potential to be applied to other forms of medical equipment such as syringe pumps, which provide
+continuous, hands-free drug delivery and can cost more than £1500 per unit.</p>
+<p>In this project we designed, 3D printed and built 2 medical-use syringe pumps based on Joshua Pearce's Open
+Source Syringe Pump. We programmed both a touchscreen interface for a Raspberry Pi computer and an Android
+application for remote pump operation via Bluetooth.</p>
+<p>We have demonstrated that medical-use syringe pumps can be built for less than 10% of their market value. This
+open-source approach to manufacturing equipment can allow hospitals to handle supply issues internally and can
+help to provide inexpensive medical equipment to poor areas with limited modern technology.</p>
+<h2>Pumpy</h2>
+<p><img alt="pump v2 pic" src="/images/pump-v2-pic.png"></p>
   </div>
   <div class="tag-cloud">
     <p>
@@ -151,13 +167,12 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
 {
   "@context" : "http://schema.org",
   "@type" : "Blog",
-  "name": " energised.work ",
+  "name": " blog.energised.work ",
   "url" : ".",
   "image": "/images/profile.png",
   "description": ""
 }
 </script>
-
 
 </body>
 </html>

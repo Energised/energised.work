@@ -3,11 +3,11 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'dan woolsey'
-SITENAME = 'energised.work'
-SITEURL = 'https://energised.work'
+SITENAME = 'blog.energised.work'
+SITEURL = 'https://blog.energised.work'
 
 SITETITLE = AUTHOR
-SITESUBTITLE = "take me back to the 80's"
+SITESUBTITLE = "developer, musician, maker"
 
 PATH = "content"
 
@@ -36,6 +36,8 @@ RELATIVE_URLS = True
 
 # Theme settings
 THEME = "Flex"
+# setup dark theme (?)
+THEME_COLOR = 'dark'
 SITELOGO = "/images/profile.png"
 FAVICON = "/images/favicon.png"
 
