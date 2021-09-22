@@ -5,11 +5,11 @@ AWS but am working on moving this to Azure.
 
 ## TODO
 
-- Check plugins will work when rebuilt on Windows
-- Switch hosting to Azure
 - Customise Flux to allow for custom CSS and JS
 - Complete first blog post on Pumpy
+- Fix Posts and Categories links to go to the correct pages
 
-# Notes
+## Notes
 
-Added this just to check that the PAt config has worked
+- For any updates to the website, the CDN must be purged after uploading the modified files to the storage resource
+  - This should make sense to you Dan, you're the one who found this issue and solution
