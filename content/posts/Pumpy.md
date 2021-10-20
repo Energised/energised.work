@@ -25,3 +25,19 @@ help to provide inexpensive medical equipment to poor areas with limited modern 
 ## Pumpy
 
 ![pump v2 pic](/images/pump-v2-pic.png)
+
+The Pumpy Syringe Pump is based on the Open Source Syringe Pump Library by Joshua Pearce et al [1]. Several modifications to
+the electronics systems and the structure of hte pump were made using Open Source resources online along with my
+own knowledge of electronics. The aim is to provide the information and designs for users to build their
+own pumps that are heavily customisable for any number of use cases. Other syringe pump projects have worked
+to produce Pumps for specific use cases, mostly in chemical and scientific research areas.
+
+For my dissertation I wanted to show that low cost and independently manufactured medical equipment is possible
+in an age where it's now easy for consumers to design and manufacture plastic components for all sorts of 
+purposes.
+
+
+
+## References
+
+[1]("https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0107216")
